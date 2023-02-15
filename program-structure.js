@@ -17,5 +17,16 @@ for (let i = 1; i < 101; i++) {
 }
 
 // Chessboard
-const chessBoard = ' # # # # \n hi';
+let chessBoard = '';
+
+for (let line = 0; line < 8; line++) {
+    for (let char = 0; char < 8; char++) {
+        if ((char + line) % 2 === 0) {
+            chessBoard += ' ';
+        } else {
+            chessBoard += '#';
+        }
+    }
+    chessBoard += '\n';
+}
 console.log(chessBoard);
