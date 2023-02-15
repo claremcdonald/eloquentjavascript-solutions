@@ -18,9 +18,10 @@ for (let i = 1; i < 101; i++) {
 
 // Chessboard
 let chessBoard = '';
+let size = 8;
 
-for (let line = 0; line < 8; line++) {
-    for (let char = 0; char < 8; char++) {
+for (let line = 0; line < size; line++) {
+    for (let char = 0; char < size; char++) {
         if ((char + line) % 2 === 0) {
             chessBoard += ' ';
         } else {
