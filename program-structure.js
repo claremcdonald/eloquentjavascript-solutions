@@ -1,8 +1,11 @@
+console.log('Chapter 2: Program Structure');
+console.log('Looping a Triangle');
 // Looping a Triangle
 for (let result = '#'; result.length < 8; result += '#') {
     console.log(result);
 }
 
+console.log('FizzBuzz');
 // FizzBuzz
 for (let i = 1; i < 101; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
@@ -16,6 +19,7 @@ for (let i = 1; i < 101; i++) {
     }
 }
 
+console.log('Chessboard');
 // Chessboard
 let chessBoard = '';
 let size = 8;

@@ -1,3 +1,5 @@
+console.log('Chapter 3: Functions');
+console.log('Minimum');
 // Minimum
 function min(x, y) {
     if (x > y) {
@@ -10,6 +12,7 @@ function min(x, y) {
 console.log(min(5, 6));
 console.log(min(9, -1));
 
+console.log('Recursion');
 // Recursion
 function isEven(n) {
     if (n === 0) {
@@ -29,6 +32,7 @@ console.log(isEven(-1));
 console.log(isEven(-6));
 console.log(isEven(-7));
 
+console.log('Bean Counting');
 // Bean Counting
 
 // first step
@@ -63,4 +67,6 @@ function countChar(string, char) {
     return count;
 }
 
-console.log(countBs('BaBBoboo', 'B'));
+console.log(countBs('BaBBoboo'));
+console.log(countBs('BBC'));
+console.log(countChar('kakkerlak', 'k'));
